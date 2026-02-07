@@ -13,8 +13,7 @@ if not api_key:
 
 client = genai.Client(api_key=api_key)
 MODEL = "gemini-2.5-pro"
-
-#This is what we're prompting the AI to do 
+ 
 SYSTEM_PROMPT = """
 You are an AI that translates emotions into music intent to help people with their mental health.
 
